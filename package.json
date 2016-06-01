@@ -1,7 +1,7 @@
 {
   "name": "angularjs-sass-test",
   "version": "0.0.1",
-  "description": "",
+  "description": "This is just an example of an AngularJS app featuring SASS.",
   "author": {
     "name": "Diego Herrera",
     "email": "vermicida@gmail.com"
