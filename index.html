@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AngularJS + SASS</title>
+    <link rel="stylesheet" href="app/styles/site.css" />
+    <script src="node_modules/angular/angular.js"></script>
+  </head>
+  <body ng-app="test">
+    <main></main>
+  </body>
+  <script>
+    angular
+      .module("test", [])
+      .component("main", { template: "<h1>I'm an AngularJS + SASS app!</h1>" });
+  </script>
+</html>

@@ -1,0 +1,39 @@
+{
+  "name": "angularjs-sass-test",
+  "version": "0.0.1",
+  "description": "",
+  "author": {
+    "name": "Diego Herrera",
+    "email": "vermicida@gmail.com"
+  },
+  "homepage": "https://github.com/vermicida/angularjs-sass-test#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vermicida/angularjs-sass-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vermicida/angularjs-sass-test/issues"
+  },
+  "scripts": {
+    "build-css": "node-sass app/styles/site.scss app/styles/site.css",
+    "watch-scss": "nodemon -e scss -x \"npm run build-css\"",
+    "watch-webapp": "lite-server",
+    "dev": "concurrently \"npm run watch-scss\" \"npm run watch-webapp\""
+  },
+  "devDependencies": {
+    "concurrently": "^2.1.0",
+    "lite-server": "^2.2.0",
+    "node-sass": "^3.7.0",
+    "nodemon": "^1.9.2"
+  },
+  "dependencies": {
+    "angular": "^1.5.6"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "sass",
+    "css"
+  ]
+}
